@@ -16,6 +16,5 @@ if image_angle < 357 && image_angle > 0
 	hitting = false
 }
 
+image_xscale = -2
 
-
-image_angle += swingrot
