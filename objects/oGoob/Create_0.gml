@@ -1,2 +1,2 @@
-deadtime = 0.1 * game_get_speed(gamespeed_fps)
+deadtime = 0.5 * game_get_speed(gamespeed_fps)
 dead = false

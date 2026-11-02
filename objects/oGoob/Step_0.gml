@@ -14,6 +14,8 @@ if dead = false
 	if deadtime > 0
 	{
 		deadtime--
+		image_yscale = lerp(image_yscale,1.2,0.1)
+		image_xscale = lerp(image_xscale,2.8,0.1)
 	} else
 	instance_destroy(id)
 }
