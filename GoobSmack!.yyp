@@ -19,10 +19,10 @@
   },
   "name":"GoobSmack!",
   "resources":[
-    {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},},
     {"id":{"name":"oGoob","path":"objects/oGoob/oGoob.yy",},},
     {"id":{"name":"oGoobspawn","path":"objects/oGoobspawn/oGoobspawn.yy",},},
     {"id":{"name":"oHammer","path":"objects/oHammer/oHammer.yy",},},
+    {"id":{"name":"oLogic","path":"objects/oLogic/oLogic.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sGoob","path":"sprites/sGoob/sGoob.yy",},},
     {"id":{"name":"sHammer","path":"sprites/sHammer/sHammer.yy",},},

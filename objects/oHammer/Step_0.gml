@@ -1,8 +1,9 @@
 x = mouse_x
 y = mouse_y +20
 
-if mouse_check_button_pressed(mb_left) && hitting = false
+if mouse_check_button_pressed(mb_left)
 {
+	image_angle = 0
 	image_angle = lerp(image_angle,360,0.1)
 	hitting = true
 }
