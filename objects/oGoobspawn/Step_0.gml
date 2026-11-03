@@ -18,7 +18,7 @@ if create = true
 		} else
 		{
 			speedtick = 5
-			create_delay -= 0.03 * game_get_speed(gamespeed_fps)
+			create_delay -= 0.5 * game_get_speed(gamespeed_fps)
 			create_delay = clamp(create_delay,speed_min,10000000000)
 		}
 		

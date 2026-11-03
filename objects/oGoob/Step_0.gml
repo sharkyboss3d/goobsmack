@@ -38,9 +38,10 @@ if dead = false
 		image_xscale = lerp(image_xscale,2.8,0.1)
 	} else
 	{
-		oLogic.points += cashout
+		oLogic.points += cashout * oHammer.tier
 		instance_destroy(id)
 	}
 }
 hp_color = 255/hp
 image_blend = make_colour_hsv(hp_color,150,255)
+hp_percent = (lifetime/lifemax) *100

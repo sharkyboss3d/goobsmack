@@ -1,0 +1,1 @@
+draw_healthbar(x-(0.5*sprite_width),y-(0.5*sprite_height)-5,x+(0.5*sprite_width),y-(0.5*sprite_height)-10,hp_percent,c_black,c_red,c_lime,0,true,true)

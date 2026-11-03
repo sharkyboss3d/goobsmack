@@ -1,6 +1,6 @@
 create = true
-create_delay = 5 * game_get_speed(gamespeed_fps)
-speedtick = 5
+create_delay = 4.5 * game_get_speed(gamespeed_fps)
+speedtick = 4
 speed_min = 0.4 * game_get_speed(gamespeed_fps)
 
 create_timer = create_delay
